@@ -5,8 +5,8 @@ public class Vegitables
     String name;
     int cost;
     int quantity;
-    double discount1;
-    public Vegitables(double d)
+    int discount1;
+    public Vegitables(int d)
     {
         discount1 =d;
     }
@@ -29,7 +29,7 @@ public class Vegitables
     {
         return cost;
     }
-    public double getDiscount()
+    public int getDiscount1()
     {
         return discount1;
     }

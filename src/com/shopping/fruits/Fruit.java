@@ -5,8 +5,8 @@ public class Fruit
 	String name;
 	int cost;
 	int quantity;
-	double discount;
-	public Fruit (double d)
+	int discount;
+	public Fruit (int d)
 	{
 	 discount=d;
 	}
@@ -26,7 +26,7 @@ public class Fruit
 	public int getQuantity() {
 		return quantity;
 	}
-	public double getDiscount()
+	public int getDiscount()
 	{
 		return discount;
 	}
