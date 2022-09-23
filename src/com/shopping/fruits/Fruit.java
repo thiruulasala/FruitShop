@@ -20,9 +20,4 @@ public class Fruit
 	public int getQuantity() {
 		return quantity;
 	}
-	 
-	 
-	 
-	 
-	
 }
